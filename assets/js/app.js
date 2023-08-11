@@ -122,6 +122,10 @@ const ontoAdd=(eve)=>{
 }
 
 
+const deleteid=(ele)=>{
+    cl(ele,'hello')
+}
+
 const onItemUpdate=()=>{
     let updatedvalue = toDoitem.value;
     cl(updatedvalue);
